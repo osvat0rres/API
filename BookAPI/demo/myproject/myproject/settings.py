@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #myapp is included
     'myapp',
+    #django rest framework
     'rest_framework',
+    # debuging toool bar
     'debug_toolbar',
 ]
 
@@ -120,6 +123,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# This setting controls the whethert the dbug tool shows up
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
