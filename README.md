@@ -1,2 +1,3 @@
 # API
 In progress...
+This works as a simple API example.
